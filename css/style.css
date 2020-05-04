@@ -1,0 +1,79 @@
+.s1{
+	margin-top: 7%;
+	text-align: center;
+}
+.s50{
+	padding: 10% 0;
+}
+.si50{
+	padding: 0 10%;
+}
+.text-s1{
+	margin: 10%;
+}
+.si53{
+	margin: 0 21%;
+}
+.si55{
+	margin: 3%;
+}
+.slide-1{
+	margin-top: 10%;
+}
+.slide-2{
+	margin-top: 4%;
+}
+.card-content{
+	padding: 2%;
+    background-color: #ededed;
+}
+.btn-see{
+	    padding: 5% 45%;
+}
+.icon-text{
+	color: #807a7a;
+}
+.card-h{
+	padding: 0 0 2% 0;
+}
+.panel-title {
+  position: relative;
+}
+  
+.panel-title::after {
+	content: "\f107";
+	color: #00abcc;
+	
+	right: 0px;
+	position: absolute;
+    font-family: "FontAwesome"
+}
+
+.panel-title[aria-expanded="true"]::after {
+	content: "\f106";
+}
+.btn-see1{
+	width: 20%; 
+	padding: 5px; 
+	border-radius: 40px; 
+	background-color: #eb661c; 
+	color: white;
+}
+/*.Phone4{
+	position: absolute;
+    z-index: 1;
+    width: 64%;
+    margin-top: -14%;
+}*/
+.see2{
+
+}
+
+@media (min-width:368px) and (max-width:767px){.phone3{margin-top: 14%;}}
+}
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
