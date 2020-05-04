@@ -69,11 +69,23 @@
 
 }
 
-@media (min-width:368px) and (max-width:767px){.phone3{margin-top: 14%;}}
+@media (min-width:368px) and (max-width:767px){
+	.phone3{margin-top: 17px;}
 }
-@media (max-width: 768px) {
+
+
+
+@media screen and (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
+}
+@media screen and (max-width: 768px) {
+  .navbar-toggle {
+    margin: 35px 10px 0;
+  }
+}
+@media (min-width: 549px) and (max-width: 768px){
+	.phone3{margin-top: 10px;}
 }
 
