@@ -59,15 +59,11 @@
 	background-color: #eb661c; 
 	color: white;
 }
-/*.Phone4{
-	position: absolute;
-    z-index: 1;
-    width: 64%;
-    margin-top: -14%;
-}*/
-.see2{
-
+.Phone4{
+	top: -37px;
+    position: absolute;
 }
+
 
 @media (min-width:368px) and (max-width:767px){
 	.phone3{margin-top: 17px;}
