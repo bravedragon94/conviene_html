@@ -84,4 +84,15 @@
 @media (min-width: 549px) and (max-width: 768px){
 	.phone3{margin-top: 10px;}
 }
-
+@media (min-width:768px) and (max-width:1023px){
+	.Phone4{top: 52px;}
+}
+@media (min-width:1024px) and (max-width:1200px){
+	.Phone4{top: -6px;}
+}
+@media (min-width:368px) and (max-width:767px){
+	.btn-see3{text-align: center;}
+}
+@media (min-width:368px) and (max-width:767px){
+	.Phone4{top: -37px;position: initial;margin-left: 20%;}
+}
