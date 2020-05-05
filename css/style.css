@@ -44,8 +44,7 @@
 .panel-title::after {
 	content: "\f107";
 	color: #00abcc;
-	
-	right: 0px;
+	right: 0;
 	position: absolute;
     font-family: "FontAwesome"
 }
@@ -65,7 +64,22 @@
     position: absolute;
 }
 
+.bg-color {
+	position: relative;
+	padding: 10px 10px 15px;
+	width: 100%;
+	transition: all .5s;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
 
+.icon-border {
+	padding: 5px;
+	background: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	max-width: 92px;
+}
 @media (min-width:368px) and (max-width:767px){
 	.phone3{margin-top: 17px;}
 }
