@@ -107,5 +107,5 @@
 	.img-people{margin-left: 4%;}
 }
 @media (min-width:768px) and (max-width:1023px){
-	.logo-size{width: 230px;}
+	.navbar>.container .logo{width: 230px;}
 }
