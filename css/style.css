@@ -73,6 +73,9 @@
 	border-radius: 10px;
 }
 
+.bg-color:hover{
+	background-color: #ededed54;
+}
 .icon-border {
 	padding: 5px;
 	background: #fff;
