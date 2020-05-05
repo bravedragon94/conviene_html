@@ -4,6 +4,7 @@
 }
 .s50{
 	padding: 10% 0;
+	margin-top: 4%;
 }
 .si50{
 	padding: 0 10%;
@@ -90,9 +91,21 @@
 @media (min-width:1024px) and (max-width:1200px){
 	.Phone4{top: -6px;}
 }
-@media (min-width:368px) and (max-width:767px){
+@media (min-width:375px) and (max-width:767px){
 	.btn-see3{text-align: center;}
 }
-@media (min-width:368px) and (max-width:767px){
+@media (min-width:375px) and (max-width:767px){
 	.Phone4{top: -37px;position: initial;margin-left: 20%;}
+}
+@media screen and (width: 375px) {
+	.Phone4{margin-left: -3%;}
+}
+@media (min-width:550px) and (max-width:767px){
+	.img-people{margin-left: 14%;}
+}
+@media screen and (width: 375px) {
+	.img-people{margin-left: 4%;}
+}
+@media (min-width:768px) and (max-width:1023px){
+	.logo-size{width: 230px;}
 }
