@@ -9,7 +9,7 @@
 }
 .s50{
 	padding: 10% 0;
-	margin-top: 45px;
+	margin-top: 4%;
 }
 .si50{
 	padding: 0 10%;
@@ -110,6 +110,17 @@
 .h3-size{
 	font-size: 20px;
 	color: #999999;
+}
+
+.header-accord{
+	font-size: 18px;
+}
+
+.content-accord{
+	font-size: 13px;
+}
+.accord-section{
+	padding: 20px 40px 20px 20px;
 }
 @media (min-width:368px) and (max-width:767px){
 	.phone3{margin-top: 17px;}
