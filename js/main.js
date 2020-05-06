@@ -226,11 +226,11 @@ function indentationCheck(innerItemLeft, innerItemTop, arrowPosition, halfToolti
                 if (tooltipOffsetRight <= 0) { // checking tooltip is it right
                     tooltipOffsetRight = tooltipOffsetRight * -1;
 
-                    // position tooltip top and right 
+                    // position tooltip top and right
                     innerItemTop = innerItemTop + elHeight + 8; // 8 - высота стрелочки на тултипе
                     innerItemLeft = offsetTooltip - halfTooltip * 2 - tooltipOffsetRight - 15;
 
-                    // position top arrow 
+                    // position top arrow
                     arrowPosition.left = halfTooltip + tooltipOffsetRight + 8; //  8 - половина ширины стрелочки
 
                 } else if (innerItemLeft <= halfTooltip) { //Проверка уходит ли тултип за границы екрана слева
@@ -285,32 +285,32 @@ function indentationCheck(innerItemLeft, innerItemTop, arrowPosition, halfToolti
             //                 $(this).find('.dropdown-menu').css(cssValRight);
             //             }
             //         });
-            //     } 
+            //     }
             //     else {
             //         target.css('width', '100%');
             //     }
             // }
             function dinamicMenu() {
-                
+
                 var target = $('.menu-nav > li'),
                 value = 100 / (target.length - 1),
-                windowCenter = (window.innerWidth || $(window).width()) / 2; 
-        
+                windowCenter = (window.innerWidth || $(window).width()) / 2;
+
                 var menu_nav_width = ($('.menu-nav').width());
-                
+
                 if ((window.innerWidth || $(window).width()) > 1023) {
-                    
+
                     target.css('width', value + '%');
                     target.on('click', function() {
-                        
+
                         var innerLeft = $(this).offset().left + 150,
                         posMenuItem = $(this).position().left,
                         widthMenu = $(this).parent().width(),
                         widthDropMenu = $(this).find('.dropdown-menu').width(),
                         differenceValues = Math.round(widthMenu - (posMenuItem + widthDropMenu));
-                        
+
                         if (windowCenter >= innerLeft) {
-                            
+
                             if (differenceValues <= 0) {
                                 $(this).find('.dropdown-menu').css({
                                     "right": "auto",
@@ -323,7 +323,7 @@ function indentationCheck(innerItemLeft, innerItemTop, arrowPosition, halfToolti
                                 });
                             }
                         } else {
-                            
+
                             if (differenceValues <= 0 && differenceValues > -838) {
                                 $(this).find('.dropdown-menu').css({
                                     "left": differenceValues,

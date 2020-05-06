@@ -1499,19 +1499,19 @@ select {
 }
 
 .bx-wrapper .bx-controls-direction .bx-prev {
-    background: #d2d2d2 url(../image/menu-sprite.png) no-repeat -310px -351px
+    background: #ffffff url(../image/arrow1.png) no-repeat -310px -351px
 }
 
 .bx-wrapper .bx-controls-direction .bx-next {
-    background: #d2d2d2 url(../image/menu-sprite.png) no-repeat -310px -351px
+    background: #ffffff url(../image/arrow2.png) no-repeat -310px -351px
 }
 
 .bx-wrapper .bx-controls-direction .bx-prev:hover,.bx-wrapper .bx-controls-direction .bx-prev:focus,.bx-wrapper .bx-controls-direction .bx-prev.active {
-    background: #00accd url(../image/menu-sprite.png) no-repeat -310px -351px
+    background: #ffffff url(../image/arrow1.png) no-repeat -310px -351px
 }
 
 .bx-wrapper .bx-controls-direction .bx-next:hover,.bx-wrapper .bx-controls-direction .bx-next:focus,.bx-wrapper .bx-controls-direction .bx-next.active {
-    background: #00accd url(../image/menu-sprite.png) no-repeat -310px -351px
+    background: #ffffff url(../image/arrow2.png) no-repeat -310px -351px
 }
 
 .average-rating {
