@@ -5753,7 +5753,10 @@ form.orange h3 { color: #eb661c !important; }
     top: -57px;
     position: absolute;
     right: 23%;
-    height: 490px;
+}
+.black-line-thin{
+    border-top: 1px solid #ddd;
+    width: 66%;
 }
 
 
