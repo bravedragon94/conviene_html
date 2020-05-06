@@ -76,12 +76,21 @@
 .bg-color:hover{
 	background-color: #ededed54;
 }
-.icon-border {
+/*.icon-border {
 	padding: 5px;
-	background: #fff;
+	background: #ffffff;
 	border-radius: 5px;
 	margin-top: 10px;
 	max-width: 92px;
+}
+*/
+.ico-blue-white .one-insurance img {
+	padding: 5px!important;
+	background: #fff !important;
+	border-radius: 5px!important;
+	border: #ffffff!important;
+	margin-top: 10px!important;
+	max-width: 92px!important;
 }
 @media (min-width:368px) and (max-width:767px){
 	.phone3{margin-top: 17px;}
