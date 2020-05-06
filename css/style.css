@@ -78,6 +78,14 @@
 	border-radius: 10px;
 }
 
+.bg-color1 {
+	position: relative;
+	padding: 42px 10px 42px 10px;
+	width: 100%;
+	transition: all .5s;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
 .bg-color:hover{
 	background-color: #ededed54;
 }
@@ -119,8 +127,21 @@
 .content-accord{
 	font-size: 13px;
 }
+
 .accord-section{
 	padding: 20px 40px 20px 20px;
+}
+
+.a-see{
+	color: #ff6803;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.phone-section{
+	margin-top: 42px;
+	margin-bottom: 42px;
 }
 @media (min-width:368px) and (max-width:767px){
 	.phone3{margin-top: 17px;}
