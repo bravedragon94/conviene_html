@@ -133,6 +133,15 @@ $(document).ready(function() {
         });
     }
 
+    $('.blogslider').bxSlider({
+        minSlides: 4,
+        maxSlides: 4,
+        slideWidth: 280,
+        slideMargin: 20,
+        moveSlides: 1,
+        pager: false
+    });
+
     $('.open-btn').on('click', function(){
         $(this).css('display', 'none');
         $('.close-btn').css('display', 'block');
