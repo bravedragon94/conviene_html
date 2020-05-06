@@ -65,8 +65,10 @@
 	color: white;
 }
 .Phone4{
-	top: -22px;
-    position: absolute;
+	top: -50px;
+	position: absolute;
+	right: 23%;
+	height: 490px;
 }
 
 .bg-color {
