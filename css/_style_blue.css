@@ -63,7 +63,10 @@ p {
 }
 
 .blue-line-thin {
-    background: #00accd
+    background: #00accd;
+    width: 75%;
+    text-align: center;
+    margin-left: 13%;
 }
 
 .purple-line-thin {
@@ -5703,18 +5706,74 @@ form.orange h3 { color: #eb661c !important; }
     }
 }
 .flex-body{
-    display:none;
+    display:flex;
     margin-bottom: 15px;
 }
-.s1{
+.pad-bot-30{
     margin-top: 60px;
     text-align: center;
 }
-
-.s1-1{
-    margin-top: 90px;
-    text-align: center;
+.number{
+    color: #757171;
+    font-size: 37px;
+    margin-top: 5%;"
 }
+.sec-bg{
+    background-color: #ededed57;
+}
+.panel-title {
+    position: relative;
+    font-size: 18px;
+}
+
+.panel-title::after {
+    content: "\f107";
+    color: #00abcc;
+    right: 0;
+    position: absolute;
+    font-family: "FontAwesome"
+}
+
+.panel-title[aria-expanded="true"]::after {
+    content: "\f106";
+}
+.accord-section{
+    padding: 20px 40px 20px 20px;
+}
+.a-see{
+    color: #ff6803;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.sec-53{
+    margin-top: 115px;
+}
+.Phone4{
+    top: -57px;
+    position: absolute;
+    right: 23%;
+    height: 490px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .s50{
     padding: 10% 0;
     margin-top: 4%;
@@ -5750,21 +5809,7 @@ form.orange h3 { color: #eb661c !important; }
 .card-h{
     padding: 0 0 2% 0;
 }
-.panel-title {
-    position: relative;
-}
 
-.panel-title::after {
-    content: "\f107";
-    color: #00abcc;
-    right: 0;
-    position: absolute;
-    font-family: "FontAwesome"
-}
-
-.panel-title[aria-expanded="true"]::after {
-    content: "\f106";
-}
 .btn-see1{
     width: 20%;
     padding: 5px;
@@ -5772,12 +5817,7 @@ form.orange h3 { color: #eb661c !important; }
     background-color: #eb661c;
     color: white;
 }
-.Phone4{
-    top: -57px;
-    position: absolute;
-    right: 23%;
-    height: 490px;
-}
+
 
 .bg-color {
     position: relative;
@@ -5830,36 +5870,16 @@ form.orange h3 { color: #eb661c !important; }
     color: #999999;
 }
 
-.header-accord{
-    font-size: 18px;
-}
 
-.content-accord{
-    font-size: 13px;
-}
 
-.accord-section{
-    padding: 20px 40px 20px 20px;
-}
 
-.a-see{
-    color: #ff6803;
-    text-align: center;
-    float: left;
-    width: 100%;
-}
 
 .phone-section{
     margin-top: 42px;
     margin-bottom: 42px;
 }
 
-.line-blue{
-    border-top: 1px solid #00abcc;
-    width: 75%;
-    text-align: center;
-    margin-left: 13%;
-}
+
 
 .img-text{
     padding: 0 32% 0 0;
@@ -5912,7 +5932,6 @@ form.orange h3 { color: #eb661c !important; }
 .bx-wrapper .bx-controls-direction a{
     position: absolute;
 }
-
 
 
 
