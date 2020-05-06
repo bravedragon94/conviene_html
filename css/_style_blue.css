@@ -5749,18 +5749,46 @@ form.orange h3 { color: #eb661c !important; }
 .sec-53{
     margin-top: 115px;
 }
+.sec-54{
+    margin-top: 155px;
+}
 .Phone4{
-    top: -57px;
+    top: -96px;
     position: absolute;
     right: 23%;
+    height: 540px;
 }
 .black-line-thin{
     border-top: 1px solid #ddd;
     width: 66%;
 }
+.text-choose{
+    color: #727272b5;
+    line-height: 1.3;
+}
+.icon-text{
+    line-height: 1.3;
+}
+.icon-img{
+    text-align:center;
+}
+.btn-see{
+    width:31%;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #00abcc;
+    color: white;
+}
+.btn-see1{
+    width:31%;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #eb661c;;
+    color: white;
+}
+.text-know{
 
-
-
+}
 
 
 
@@ -5803,23 +5831,12 @@ form.orange h3 { color: #eb661c !important; }
     padding: 2%;
     background-color: #ededed;
 }
-.btn-see{
-    padding: 5% 45%;
-}
-.icon-text{
-    color: #807a7a;
-}
+
+
 .card-h{
     padding: 0 0 2% 0;
 }
 
-.btn-see1{
-    width: 20%;
-    padding: 5px;
-    border-radius: 40px;
-    background-color: #eb661c;
-    color: white;
-}
 
 
 .bg-color {
